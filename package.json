@@ -1,8 +1,8 @@
 {
   "name": "my-app",
+  "homepage": "https://A4-AryanArshad.github.io/ReactLive",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@stripe/stripe-js": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +11,7 @@
     "@zegocloud/zego-uikit-prebuilt": "^1.8.7",
     "@zegocloud/zego-uikit-prebuilt-live-streaming-rn": "^2.1.0",
     "axios": "^1.4.0",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,0 +1,47 @@
+#l{
+    color: black;
+    background-color: black;
+}
+#kly{
+
+    color: white;
+   font-family: 'Bangers', cursive;;
+   font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+#g{
+    background-color: black;
+}
+#rr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#iy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+#kllp {
+    color: white;
+    font-family: 'Bangers', cursive;;
+    font-size: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+#kllp h2{
+    margin: 50px;
+}
+#nflex{
+    background-color: black;
+}
+#backgrounder{
+    background-color: black;
+}

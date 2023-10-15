@@ -1,0 +1,180 @@
+#cen{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 1800px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Bangers', cursive;
+    
+    font-size: 30px;
+    background: radial-gradient(circle, rgba(0,0,0,0.3996192226890757) 0%, rgba(0,0,0,1) 100%);
+   
+}
+#ucen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+ 
+}
+#contector{
+    background: rgb(189,33,153);
+background: linear-gradient(180deg, rgb(54, 66, 86) 15%, rgba(0,0,0,1) 100%);
+    height: 800px;
+    width: 1300px;
+    border-radius: 30px;
+}
+#lo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: black;
+   
+}
+#df{
+
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 30px;
+    margin: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+#fot{
+    background-color: black;
+}
+#df input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+    width: 300px;
+
+color: silver;}
+#ll{
+    text-align: center;
+
+}
+#ll button{
+    border: none;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+@media (max-width: 615px) {
+#fot{
+    display: none;
+}
+
+}
+@media (max-width: 577px) {
+    #cen{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #ucen{
+        padding-top: 190px;
+    }
+    #contector{
+  
+        height: 800px;
+        width: 300px;
+       
+    }
+    #df h2{
+        text-align: center;
+    }
+
+}
+@media (max-width: 338px) {
+
+    #contector{
+  
+        height: 800px;
+       background-color: transparent;
+       width: 0;
+    
+       
+    }
+}
+#texterrt{
+    color: white;
+}
+
+#kji h2{
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#kji p{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+#kji{
+    text-align: center;
+    width: 800px;
+    padding: 18px;
+}
+#texterrt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 962px) {
+
+
+    #kji{
+        text-align: center;
+        width: 500px;
+        padding: 18px;
+    }
+
+}
+@media (max-width: 570px) {
+
+
+    #kji{
+        
+        text-align: center;
+        width: 300px;
+        padding: 18px;
+    }
+    #texterrt{
+
+padding-top: 30px;
+
+    }
+
+}
+
+@media (max-width: 355px) {
+
+
+    #kji{
+        
+        text-align: center;
+        width: 200px;
+        padding: 18px;
+    }
+    #texterrt{
+
+padding-top: 30px;
+
+    }
+
+}

@@ -1,0 +1,96 @@
+#diverr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 800px;
+}
+#diverr h2{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 45px;
+}
+#mypic img{
+    height: 200px;
+    border-radius: 17px;
+    margin-left: 50px;
+}
+#ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+
+}
+#toppw{
+    padding-top: 80px;
+}
+
+#toppw{
+    background-color: black;
+}
+
+
+
+
+@media (max-width: 1212px) {
+   #ss{
+    flex-direction: column;
+   }
+   #diverr{
+
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+   }
+   #diverr h2{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 25px;
+}
+#buttoner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+    }
+    
+    @media (max-width: 460px) {
+#mypic img{
+    height: 90px;
+}
+#op{
+    text-align: center;
+}
+
+    }
+
+    @media (max-width: 850px) {
+        #oep{
+          display: none;
+        }
+        #toppw{
+     
+            padding: 40px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+         
+        }
+       #mypic img{
+        margin: 0;
+        padding: 0;
+       }
+          }
+
+          #hju{
+            padding-top: 190px;
+          }
+          #diverr{
+            cursor: pointer;
+          }
+          

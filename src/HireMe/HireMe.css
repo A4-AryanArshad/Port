@@ -1,0 +1,129 @@
+#hire{
+    color: white;
+}
+#hire1 h2{
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+#options{
+    display: flex;
+  
+    font-family: 'Oswald', sans-serif;
+}
+#options p{
+    padding: 6px;
+}
+#flexd{
+ 
+    padding-top: 24px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+
+   
+}
+#flexd h3{
+    font-family: 'Oswald', sans-serif;
+    padding-left: 40px;
+}
+#hire1{
+    border: 2px solid rgba(30,70,138,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 34px;
+}
+#hire{
+    display: flex;
+    justify-content: space-around;
+}
+#pricer{
+    padding-top: 53px;
+}
+#naviour{
+    padding-top: 50px;
+}
+#ik{
+    display: flex;
+    justify-content: right;
+}
+#ik img{
+    height: 100px;
+   
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+@media (max-width: 2560px) {
+
+#hire{
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+}
+
+@media (max-width: 1645px) {
+
+    #hire{
+        padding-top: 20px;
+        flex-direction: column;
+   
+    }
+    #hire1{
+        width: 500px;
+    
+        margin-top: 60px;
+        
+    }
+    #oi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    }
+
+
+    @media (max-width: 633px) {
+
+        #hire{
+            padding-top: 70px;
+            flex-direction: column;
+       
+        }
+        #hire1{
+            width: 300px;
+        
+            margin-top: 60px;
+            
+        }
+        #oi{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        }
+
+        @media (max-width: 393px) {
+
+            #hire{
+                padding-top: 70px;
+                flex-direction: column;
+           
+            }
+            #hire1{
+                width: 200px;
+            
+                margin-top: 60px;
+                
+            }
+            #oi{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            }

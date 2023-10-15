@@ -1,0 +1,75 @@
+#ar{
+    font-family: 'Smooch', cursive;
+    color: white;
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding-top: 5%;
+}
+#ar p{
+    font-size: 19px;
+}
+#texter input{
+background-color: transparent;
+color: white;
+
+padding: 20px;
+padding-left: 160px;
+padding-right: 160px;
+border-radius: 28px;
+border-color: white;
+font-family: 'Smooch', cursive;
+}
+#texter{
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jkl{
+    color: white;
+    font-size: 39px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#projy{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#totr{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50%;
+  
+}
+
+#fg{
+    color: white;
+    font-family: 'Smooch', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#jj1{
+    width: 800px;
+    text-align: center;
+    font-size: 19px;
+}
+#jj2{
+    width: 800px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
+#jj11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

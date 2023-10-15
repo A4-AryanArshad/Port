@@ -1,0 +1,96 @@
+#nn{
+    background: rgb(189,33,153);
+    background: linear-gradient(180deg, rgba(30,70,138,1) 35%, rgba(0,0,0,1) 100%);
+    padding:60px ;
+}
+
+
+#signupper img{
+height: 650px;
+}
+#contectorr{
+    display: flex;
+    background: linear-gradient(180deg, rgb(54, 66, 86) 15%, rgba(0,0,0,1) 100%);
+    height: 800px;
+    width: 1300px;
+    border-radius: 30px;
+}
+#contectorr{
+    height: 200px;
+    width: 1300px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(54, 66, 86) 15%, rgba(0,0,0,1) 100%);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 10x;
+}
+#kl{
+    background-color: black;
+}
+#ff{
+    height: 20px;
+}
+#ce{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  cursor: pointer;
+    font-family: 'Bangers', cursive;
+    
+    font-size: 30px;
+    background: radial-gradient(circle, rgba(0,0,0,0.3996192226890757) 0%, rgba(0,0,0,1) 100%);
+}
+#f{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-top: 60px;
+}
+#linkk{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#hh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#file{
+    padding-left: 100px;
+}
+#lll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lll button{
+    margin-left: 30px;
+}
+#cen{
+    background-color: black;
+}
+#fott{
+    padding-top:290px ;
+}
+#kul{
+    background-color: black;
+}
+#ll{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 435px) {
+
+#ce{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}

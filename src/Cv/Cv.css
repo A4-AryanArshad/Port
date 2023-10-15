@@ -1,0 +1,135 @@
+h1{
+    color: white;
+}
+
+#ucivier{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    padding-bottom: 0;
+}
+#civier{
+    background-color: white;
+   
+   
+
+}
+#cvv{
+    background-color: black;
+}
+#kl{
+    background-color: black;
+}
+#arear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#civier img{
+    height: 1100PX;
+    width: 1100px;
+}
+#cvv h2{
+    font-family: 'Black Han Sans', sans-serif;
+    
+    font-size: 50px;
+}
+#cvv {
+    
+    font-size: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+#downloader{
+    color: black;
+    display: flex;
+    border: 2px solid ;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+#downloader h3{
+    margin-top: 6px;
+}
+#down{
+    margin-top: 8px;
+    margin-right: 10px;
+
+}
+
+@media (max-width: 1290px) {
+#cvv{
+    padding-top: 90px;
+}
+
+}
+
+@media (max-width: 1146px) {
+ #civier img{
+    height: 1400px;
+    width: 900px;
+ }
+}
+@media (max-width: 936px) {
+    #civier img{
+       height: 1400px;
+       width: 700px;
+    }
+   }
+   @media (max-width: 728px) {
+    #civier img{
+       height: 1400px;
+       width: 500px;
+    }
+   }
+   @media (max-width: 550px) {
+    #civier img{
+       height: 900px;
+       width: 300px;
+    }
+    #cvv h2{
+        padding-top: 40px;
+       font-size: 20px;
+    }
+    #downloader h3{
+        
+        font-size: 20px;
+    }
+    #downloader {
+        margin-top: 30px;
+    }
+   }
+   @media (max-width: 639px) {
+#kl{
+    display: none;
+}
+
+   }
+   @media (max-width: 697px) {
+#cvv{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ucivier{
+   padding-bottom: 90px;
+}
+   }
+   @media (max-width: 310px) {
+
+    #ucivier{
+     display: none;
+     }
+     #cvv{
+        padding-top: 440px;
+        padding-bottom: 640px;
+     }
+   }

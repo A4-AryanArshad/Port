@@ -1,0 +1,49 @@
+#head{
+    color: white;
+}
+#imagerry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#imagerry img{
+    height: 440px;
+}
+#head h2{
+    font-family: 'Black Han Sans', sans-serif;
+}
+#head p{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#head{
+    padding: 20px;
+    width: 900px;
+}
+#uppderhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+}
+#not{
+    border: 2px solid red;
+    width: 240px;
+   color:red;
+   cursor: pointer;
+
+    text-align: center;
+}
+#nott{
+    border: 2px solid greenyellow;
+    width: 240px;
+   color:greenyellow;
+cursor: pointer;
+    text-align: center;
+}
+#headers{
+    display: flex;
+    justify-content: space-around;
+
+}

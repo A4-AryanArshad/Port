@@ -1,0 +1,73 @@
+#styleetr{
+    font-family: 'Qwigley', cursive;
+    font-family: 'Bangers', cursive;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+@media (max-width: 1519px) {
+    #styleetr{
+
+display: none;
+background-color: black;
+
+    }
+}
+#wnn{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+#icooo{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+#icooo h2{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 110px;
+}
+#ico p{
+    margin-left: 20px;
+}
+#topp{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 531px) {
+
+    #cvv{
+font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 704px) {
+
+#icooo h2{
+    font-size: 90px;
+}
+
+}
+
+@media (max-width: 520px) {
+
+    #icooo h2{
+        font-size: 60px;
+    }
+    
+    }

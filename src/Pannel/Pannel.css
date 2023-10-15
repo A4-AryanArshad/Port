@@ -1,0 +1,25 @@
+#qop{
+    display: flex;
+    flex-direction: column;
+  
+    border-radius: 90px;
+    padding-top: 90px;
+
+}
+#qop button{
+    cursor: pointer;
+    width: 190px;
+    border: none;
+    padding: 30px;
+    color: white;
+    background-color: transparent;
+}
+#sider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+#dfd{
+    padding-left: 130px;
+}

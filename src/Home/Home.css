@@ -1,0 +1,554 @@
+#homer{
+    height: 220px;
+  
+   
+    background: rgb(189,33,153);
+background: linear-gradient(180deg, rgba(30,70,138,1) 35%, rgba(0,0,0,1) 100%);
+}
+#nn{
+  
+    padding-top: 60px;
+
+   
+}
+#other{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#para1{
+  padding-left: 9rem;
+}
+#para1 h2{
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#para1 p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 19px;
+    width: 700px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  #para1 p{
+    padding-top: 12px;
+    letter-spacing: 1px;
+  }
+  #para1 h3{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 12px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  #iconer{
+    color: silver;
+    font-size: 35px;
+   margin-top: 28px;
+  }
+  #iconeer{
+    color: silver;
+    font-size: 43px;
+   margin-top: 28px;
+  }
+  #ll{
+    margin-left: 35px;
+  }
+  #imager img{
+    height: 420px;
+
+    
+  }
+  #namerrr h1{
+    font-family: 'Qwigley', cursive;
+    font-size: 78px;
+  }
+  #hh h2{
+    margin-top: 90px;
+  }
+  #imager{
+    padding-bottom: 21rem;
+    padding-left: 8rem;
+    
+  }
+  #llk{
+    font-size: 48px;
+    margin-left: 40px;
+  }
+  #para1{
+    padding-bottom: 13rem;
+  }
+  #skillss h2{
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    background-color: black;
+    margin: 0;
+
+    
+  }
+  #skillss{
+    padding-bottom: 7rem;
+  }
+  #skillss p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 19px;
+    width: 600px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: black;
+    
+  }
+  #ciconer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: black;
+    padding-bottom: 7rem;
+  }
+  #totalskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 0;
+    
+    
+  }
+  *{
+    #imager1{
+      display: none;
+    }
+    body{
+      background-color: black;
+    }
+  }
+  #ff{
+    margin-left: 50px;
+    font-size: 45px;
+    
+  }
+  @media (max-width: 1477px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 2rem;
+      
+    }
+    #nn{
+      padding: 2px;
+      padding-top: 30px;
+    }
+    
+  }
+  @media (max-width: 1392px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 0rem;
+      
+    }
+    #imager img{
+      height: 490px;
+      padding-right: 120px;
+      display: none;
+    }
+    #imager1{
+      display:block;
+    }
+    #imager1 img{
+      height: 780px;
+  
+      
+    }
+    #llr{
+      margin-left: 29px;
+      color: white;
+    }
+  #aryan{
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+   #iconeer{
+    color: white;
+   }
+    #totalskills{
+      text-align: center;
+      flex-direction: column;
+          }
+          #ciconer{
+      margin: 0;
+      margin-top: 1px;
+      margin-left: 0;
+          }
+          #skillss{
+            padding-bottom: 1rem;
+          }
+          #ff{
+            margin-left: 35px;
+            font-size: 45px;
+          }
+    #imager1{
+      padding-bottom: 21rem;
+      padding-left: 8rem;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      
+    }
+    #para1{
+      text-align: center;
+      padding: 0;
+    }
+  }
+  @media (max-width: 770px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 0rem;
+      
+    }
+    #imager img{
+      height: 490px;
+      padding-right: 120px;
+      display: none;
+    }
+    #imager1{
+      display:block;
+    }
+    #imager1 img{
+      height: 480px;
+  
+      
+    }
+    #imager1{
+      padding-bottom: 21rem;
+      padding-left: 8rem;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      
+    }
+    #para1{
+      text-align: center;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    #para1 p{
+      font-size: 15px;
+      width: 600px;
+    }
+    #para1 h2{
+font-size: 36px;
+    }
+    #skillss h2{
+      font-size: 36px;
+    }
+    #skillss p{
+      font-size: 15px;
+      width: 600px;
+    }
+  }
+  
+  @media (max-width: 610px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 0rem;
+      
+    }
+    #imager img{
+      height: 490px;
+      padding-right: 120px;
+      display: none;
+    }
+    #imager1{
+      display:block;
+    }
+    #imager1 img{
+      height: 380px;
+      padding-top: 160px;
+  
+      
+    }
+    #imager1{
+      padding-bottom: 21rem;
+      padding-left: 8rem;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      
+    }
+    #para1{
+      text-align: center;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    #para1 p{
+      font-size: 15px;
+      width: 400px;
+    }
+    #para1 h2{
+font-size: 26px;
+    }
+    #skillss h2{
+      font-size: 26px;
+    }
+    #skillss p{
+      font-size: 15px;
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 440px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 0rem;
+      
+    }
+    #imager img{
+      height: 490px;
+      padding-right: 120px;
+      display: none;
+    }
+    #imager1{
+      display:block;
+    }
+    #imager1 img{
+      height: 280px;
+  
+      
+    }
+    #imager1{
+      padding-bottom: 21rem;
+      padding-left: 8rem;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      
+    }
+    #para1{
+      text-align: center;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    #para1 p{
+      font-size: 15px;
+      width: 300px;
+    }
+    #para1 h2{
+font-size: 36px;
+    }
+    #skillss h2{
+      font-size: 36px;
+    }
+    #skillss p{
+      font-size: 15px;
+      width: 300px;
+    }
+  }
+
+
+  @media (max-width: 300px) {
+    #imager{
+      padding-bottom: 21rem;
+      padding-left: 0rem;
+      
+    }
+    #imager img{
+      height: 490px;
+      padding-right: 120px;
+      display: none;
+    }
+    #imager1{
+      display:block;
+    }
+    #imager1 img{
+      height: 280px;
+  
+      
+    }
+    #imager1{
+      padding-bottom: 19rem;
+      padding-left: 8rem;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      
+    }
+    #para1{
+      text-align: center;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    #para1 p{
+      font-size: 15px;
+      width: 200px;
+    }
+    #para1 h2{
+font-size: 36px;
+    }
+    #skillss h2{
+      font-size: 36px;
+    }
+    #skillss p{
+      font-size: 15px;
+      width: 200px;
+    }
+  }
+  @media (max-width: 484px) {
+    #ciconer{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-right: 30px;
+      background-color: black;
+      padding-bottom: 17rem;
+    }
+
+  }
+  @media (max-width: 299px) {
+    #ciconer{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-right: 30px;
+      background-color: black;
+      padding-bottom: 17rem;
+    }
+
+  }
+  #proj{
+    background-color: black;
+ margin-top: 0;
+
+  }
+  
+  @media (max-width: 850px) {
+#oep{
+  display: none;
+}
+  }
+  
+
+ 
+  #proj{
+ 
+    padding: 20px; /* Add padding to style the footer */
+  }
+
+
+
+  @media (min-width: 2000px) {
+
+    #proje{
+
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      /* Change the background color as needed */
+      color: white; /* Change the text color as needed */
+      text-align: center;
+      padding: 10px; /* Add padding to style the footer */
+    
+  }
+
+    #tota{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media (min-width: 1397px) {
+    #para1{
+      padding-right: 78px;
+    }
+    #other{
+      padding-top: 47px;
+    }
+     }
+
+     @media (max-width: 1355px) {
+
+      #para1{
+        padding-left: 55px;
+      }
+      #aryant{
+        padding-top: 90px;
+      }
+
+     }
+
+     @media (max-width: 680px) {
+      #para1{
+        padding-right: 60px;
+      }
+
+     }
+
+     @media (max-width: 680px) {
+#totalskills{
+  padding-top: 90px;
+}
+
+     }
+     @media (max-width: 518px) {
+
+
+      #para1{
+        padding-right: 60px;
+      }
+     }
+     @media (max-width: 514px) {
+
+
+      #para1{
+        padding-right: 40px;
+
+        width: 300px;
+      }
+     }
+
+     @media (max-width: 394px) {
+
+
+      #para1{
+        padding-top: 80px;
+        padding-right: 40px;
+
+        width: 200px;
+      }
+     }

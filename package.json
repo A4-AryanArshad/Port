@@ -11,7 +11,6 @@
     "@zegocloud/zego-uikit-prebuilt": "^1.8.7",
     "@zegocloud/zego-uikit-prebuilt-live-streaming-rn": "^2.1.0",
     "axios": "^1.4.0",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -23,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

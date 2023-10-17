@@ -2,7 +2,7 @@
   "name": "my-app",
   "homepage": "https://A4-AryanArshad.github.io/Port",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@stripe/stripe-js": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.5",

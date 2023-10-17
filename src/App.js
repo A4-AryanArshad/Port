@@ -9,13 +9,13 @@ import Footer from './Footer/Footer';
 import SignUp from './Hire/SignUp';
 import Login from "./Hire/Login"
 import Room from './Hire/Room';
-import Chatlogin from './Chat/Chatlogin';
-import ChatPage from './Chat/ChatPage';
+
+
 import Pannel from './Pannel/Pannel';
 import AddP from './Pannel/AddP';
 import ProjectType from './ProjectType/ProjectType';
 import HireMe from './HireMe/HireMe';
-import ClientPannel from './ClientPannel/ClientPannel';
+
 
 
 function App() {
@@ -35,13 +35,12 @@ function App() {
     <Route path="/SignUp" element={<SignUp/>}/> 
     <Route path="/Login" element={<Login/>}/> 
     <Route path="/Room/:roomId" element={<Room/>}/> 
-    <Route path="/Chat" element={<Chatlogin/>}/> 
-    <Route path="/ChatPage/:room" element={<ChatPage/>}/> 
+    
     <Route path="/Projects/:type" element={<ProjectType/>}/> 
     <Route path="/pannel" element={<Pannel/>}/> 
     <Route path="/AddP" element={<AddP/>}/> 
     <Route path="/Hire" element={<HireMe/>}/> 
-    <Route path="/Cpannel" element={<ClientPannel/>}/> 
+   
     
 
 
